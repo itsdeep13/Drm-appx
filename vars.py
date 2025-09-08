@@ -4,12 +4,12 @@ from os import environ
 # API Configuration
 API_ID = int(os.environ.get("API_ID", "25693368"))
 API_HASH = os.environ.get("API_HASH", "2dcf91b0f99c0b9d4875e87020e6bd07")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7715035021:AAGABcpL1tXtOdMBnMnXbujBVpbuttFKbxU")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7884931934:AAG480hUHr3YDLMBB_HWBtYg7_xARfWJyN8")
 
 CREDIT = os.environ.get("CREDIT","Astronaut Official")
 # MongoDB Configuration
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "Astronaut")
-DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://botexe:botexe@cluster0.pqc0ykw.mongodb.net/")
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "manojrewa9876")
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://manojrewa9876_db_user:6DObg9qBxqhsKaTZ@cluster0.vwjrocl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 MONGO_URL = DATABASE_URL  # For auth system
 
 # Owner and Admin Configuration
@@ -59,4 +59,5 @@ Please contact the admin @ItsUGBot to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
