@@ -10,7 +10,7 @@ CREDIT = os.environ.get("CREDIT","Astronaut Official")
 # MongoDB Configuration
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "uploaderbot")
 DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://uploaderbot:uploaderbot@cluster0.mpesxpw.mongodb.net/?retryWrites=true&w=majority=true&w=majority&appName=Cluster0")
-MONGO_URL = DATABASE_URL  # For auth system
+MONGO_URL = "mongodb+srv://uploaderbot:uploaderbot@cluster0.mpesxpw.mongodb.net/?retryWrites=true&w=majority=true&w=majority&appName=Cluster0"  # For auth system
 
 # Owner and Admin Configuration
 OWNER_ID = int(os.environ.get("OWNER_ID", "6252997817"))
@@ -59,6 +59,7 @@ Please contact the admin @ItsUGBot to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
 
 
