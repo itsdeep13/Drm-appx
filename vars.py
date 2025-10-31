@@ -2,22 +2,22 @@ import os
 from os import environ
 
 # API Configuration
-API_ID = int(os.environ.get("API_ID", "25693368"))
-API_HASH = os.environ.get("API_HASH", "2dcf91b0f99c0b9d4875e87020e6bd07")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7884931934:AAG480hUHr3YDLMBB_HWBtYg7_xARfWJyN8")
+API_ID = int(os.environ.get("API_ID", "22484497"))
+API_HASH = os.environ.get("API_HASH", "c38cb053916c47a97590c244663cbaef")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7590266354:AAFBjroQ_hJgd81uJQscMsrTdTy85Dbf4xo")
 
 CREDIT = os.environ.get("CREDIT","Astronaut Official")
 # MongoDB Configuration
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "manojrewa9876")
-DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://manojrewa9876_db_user:6DObg9qBxqhsKaTZ@cluster0.vwjrocl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "uploaderbot")
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://uploaderbot:uploaderbot@cluster0.mpesxpw.mongodb.net/?retryWrites=true&w=majority=true&w=majority&appName=Cluster0")
 MONGO_URL = DATABASE_URL  # For auth system
 
 # Owner and Admin Configuration
-OWNER_ID = int(os.environ.get("OWNER_ID", "5927517339"))
-ADMINS = [int(x) for x in os.environ.get("ADMINS", "5927517339").split()]  # Default to owner ID
+OWNER_ID = int(os.environ.get("OWNER_ID", "6252997817"))
+ADMINS = [int(x) for x in os.environ.get("ADMINS", "6252997817").split()]  # Default to owner ID
 
 # Channel Configuration
-PREMIUM_CHANNEL = "https://t.me/+W-Q51EuLf2QwYTl"
+PREMIUM_CHANNEL = "https://t.me/+2Z8FxAbzjPZlZGU1"
 # Thumbnail Configuration
 THUMBNAILS = list(map(str, os.environ.get("THUMBNAILS", "https://i.fbcd.co/products/original/ug-logo-designs-2-acbfbf7b80e16df4c902a34d1caf148e7e1feca736e21075114990e62294f3ac.jpg").split()))
 
@@ -59,5 +59,6 @@ Please contact the admin @ItsUGBot to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
 
